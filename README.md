@@ -2,6 +2,12 @@
 
 Convolutional Neural Network model for German Traffic Sign Recognition Benchmark \(GTSRB\) dataset
 
+
+![Example Image](images/Screenshot1.png)
+
+![Example Image2](images/Screenshot2.png)
+
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -10,8 +16,9 @@ Convolutional Neural Network model for German Traffic Sign Recognition Benchmark
 - [License](#license)
 
 ## Installation
-
+Install python version 3.10.13 or above to run model and backend
 Install necessary machine learning libraries \(Tensorflow, SKlearn, OpenCV, Keras, Numpy, Pandas\)
+install node v20.11.0 or above to run frontend
 
 ## Usage
 
@@ -24,6 +31,11 @@ make sure to download the [GTSRB](https://www.kaggle.com/datasets/meowmeowmeowme
 go to `cd ./backend/src` and run `python app.py`
 
 sent the image to /predict route as POST method and in form with name "image"
+
+### To run Frontend
+go to `cd ./frontend/traffic-sign-recognition`
+run `npm install`
+then run `npm start`
 
 ## References
 
