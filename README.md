@@ -17,10 +17,12 @@ Install necessary machine learning libraries \(Tensorflow, SKlearn, OpenCV, Kera
 
 ### To run model
 go to `cd ./model` and run the `python model.py`
+
 make sure to download the [GTSRB](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/) dataset and add it under `/models/dataset`
 
 ### To run Backend
 go to `cd ./backend/src` and run `python app.py`
+
 sent the image to /predict route as POST method and in form with name "image"
 
 ## References
