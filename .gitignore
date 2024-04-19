@@ -147,6 +147,7 @@ cython_debug/
 # Output and Input files
 input/
 output/
+dataset/
 
 # PyCharm
 #  JetBrains specific template is maintainted in a separate JetBrains.gitignore that can
