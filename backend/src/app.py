@@ -1,9 +1,9 @@
 from flask import Flask, request
-from PIL import Image
-import io
-from predictor import predict  # Import the predict function
+from flask_cors import CORS
+from predictor import predict
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/predict', methods=['POST'])
 def predict_route():

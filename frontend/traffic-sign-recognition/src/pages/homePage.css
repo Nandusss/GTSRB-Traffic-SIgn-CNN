@@ -1,0 +1,6 @@
+
+.same-size {
+    width: 100px;  /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    object-fit: cover; /* This will ensure that the aspect ratio of the images is preserved */
+}
