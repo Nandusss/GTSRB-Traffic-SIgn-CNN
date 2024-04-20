@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import config from '../config/config.json';
+import config from '../../config/config.json';
 import './homePage.css';
 
 
