@@ -64,6 +64,7 @@ const HomePage: React.FC = () => {
                             <input type="file" accept="image/*" onChange={handleImageChange} multiple className="form-control" />
                         </div>
                         <button type="submit" className="btn btn-primary">Submit</button>
+                        <Link to="/live-video" className="btn btn-primary ml-2">Live Video</Link>
                     </form>
                     <div className="row">
                         {imageUrls.map((url, index) => (
