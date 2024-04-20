@@ -58,7 +58,9 @@ const HomePage: React.FC = () => {
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-6">
-                    <h1 className="text-center my-4">German Sign Recognition</h1>
+                    <h1 className="text-center my-4">German Traffic Sign Recognition</h1>
+                    <br/>
+                    <br/>
                     <form onSubmit={handleSubmit}>
                         <div className="form-group">
                             <input type="file" accept="image/*" onChange={handleImageChange} multiple className="form-control" />
